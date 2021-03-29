@@ -2,7 +2,7 @@
   <!-- NAVIGATION BAR (DESKTOP & MOBILE) -->
   <header v-bind:style="[ phoneViewport ? { 'padding': '2rem' } : {} ]">
     <!-- Argha's Photos Text -->
-    <router-link :style="{ color: logoColor || '#111' }" id='text-logo' to='/'>Time Criminals</router-link>
+    <router-link :style="{ color: logoColor || '#111' }" id='text-logo' to='/'>TC</router-link>
 
     <!-- Desktop Navigation -->
     <transition name="fade">
@@ -454,6 +454,7 @@ header {
   transition: all 0.25s ease-in-out 0s;
 }
 
+/*
 .overlay li a::before,
 .overlay li a::after {
   content: '';
@@ -486,6 +487,7 @@ header {
   font-size: 2rem;
   font-weight: 600;
 }
+*/
 
 /* Mobile Navigation Overlay Transitions */
 .overlay-expand-enter {
