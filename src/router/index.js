@@ -16,7 +16,7 @@ const routes = [
   },
   {
     path: "/technicaldocuments",
-    name: "TechnicalDocuments",
+    name: "Technical Documents",
     component: TechnicalDocuments,
   },
 ];
@@ -24,6 +24,15 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  scrollBehavior() {
+    document.getElementById('app').scrollIntoView();
+  }
+});
+
+router.beforeEach((to, from, next) => {
+  console.log(to);
+  document.title = `Time Criminals | ${ to.name }`;
+  next();
 });
 
 export default router;

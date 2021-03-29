@@ -274,7 +274,7 @@ header {
 
 #text-logo {
   font-family: "Bon Vivant Serif", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 6rem;
   letter-spacing: 0.05rem;
   text-decoration: none;

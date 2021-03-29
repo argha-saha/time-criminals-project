@@ -74,9 +74,6 @@ html {
   font-weight: 400;
   font-size: 10px;
   background-color: #fff;
-
-  /* Mozilla Firefox Custom Scrollbar */
-  scrollbar-color: #151bca #161616;
 }
 
 .fade-enter-active, .fade-leave-active {
@@ -89,21 +86,6 @@ html {
 
 #global-nav {
   z-index: 1000;
-}
-
-/* Google Chrome Custom Scrollbar */
-body::-webkit-scrollbar {
-  width: 1rem;
-  background-color: #161616;
-}
-
-body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.25);
-}
-
-body::-webkit-scrollbar-thumb {
-  border-radius: 0.5rem;
-  background-image: linear-gradient(#0005a0, #1bffff);
 }
 
 @viewport {
