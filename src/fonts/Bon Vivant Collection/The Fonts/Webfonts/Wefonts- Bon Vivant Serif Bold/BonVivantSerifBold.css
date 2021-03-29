@@ -1,0 +1,9 @@
+/* Webfont: BonVivantSerifBold */@font-face {
+    font-family: 'BonVivantSerifBold';
+    src: url('BonVivantSerifBold.woff2') format('woff2'), /* Modern Browsers */
+         url('BonVivantSerifBold.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+

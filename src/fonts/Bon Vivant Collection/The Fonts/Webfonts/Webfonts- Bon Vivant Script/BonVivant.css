@@ -1,0 +1,9 @@
+/* Webfont: BonVivant-Regular */@font-face {
+    font-family: 'BonVivant';
+    src: url('BonVivant.woff2') format('woff2'), /* Modern Browsers */
+         url('BonVivant.otf') format('opentype'); /* Safari, Android, iOS */
+             font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
